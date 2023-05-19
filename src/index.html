@@ -5,34 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard</title>
+    <title>The Leaderboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="content">
-        <h1>Leaderboard</h1>
+        <div class="header">
+            <div class="leaderboard">The Leaderboard</div>
+        </div>
         <div class="content-main">
             <div class="scores">
                 <div class="scores-refresh">
                     <div class="recent">Recent Scores</div>
-                    <div class="refresh"><button class="refresh-btn">refresh</button></div>
+                    <div class="refresh"><button class="refresh-btn btn btn-warning">refresh</button></div>
                 </div>
                 <div class="scores-table">
-                    <table class="name-scores">
-        
+                    <table class="name-scores table">
+
                     </table>
                 </div>
             </div>
             <div class="add-new">
                 <div class="form-name">Add your score</div>
                 <form action="" class="form-input">
-                    <div ><input type="text" class="your-name" placeholder="your name"></div>
-                    <div ><input type="number" class="your-score" placeholder="your score"></div>
-                    <div ><input type="button" class="submit" value="submit"></div>
+                    <div><input type="text" class="your-name form-control" placeholder="your name"></div>
+                    <div><input type="number" class="your-score form-control" placeholder="your score"></div>
+                    <div><input type="button" class="btn btn-success submit" value="submit"></div>
                 </form>
             </div>
         </div>
 
+    </div>
+
+    <div class="footer">
+
+        <div class="copyright">
+            @copyright 2023
+        </div>
+        <div class="developer">
+            Morteza Tawakuli
+        </div>
     </div>
 </body>
 
